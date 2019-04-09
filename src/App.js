@@ -1,8 +1,16 @@
 import React from "react";
 import "./App.css";
 
+import useLockBody from "./useLockBody";
+
 const App = () => {
-  return <h1>useHooks</h1>;
+  useLockBody();
+
+  return (
+    <div className="App">
+      <h1>useHooks</h1>
+    </div>
+  );
 };
 
 export default App;
