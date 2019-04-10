@@ -1,7 +1,5 @@
 import React, { useReducer } from "react";
 
-import "./App.css";
-
 const initialState = { count: 0 };
 
 const init = initState => initState;
@@ -19,7 +17,7 @@ const reducer = (state, action) => {
   }
 };
 
-const App = () => {
+const index = () => {
   const [state, dispatch] = useReducer(reducer, initialState, init);
   return (
     <div>
@@ -31,4 +29,4 @@ const App = () => {
   );
 };
 
-export default App;
+export default index;
