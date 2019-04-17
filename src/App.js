@@ -1,4 +1,4 @@
-import React, { useReducer, useRef } from "react";
+import React, { useRef } from "react";
 
 import useRipple from "./useRipple";
 
